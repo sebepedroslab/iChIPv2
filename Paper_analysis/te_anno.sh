@@ -32,7 +32,7 @@ elif [[ ${SLURM_ARRAY_TASK_ID} == 3 ]]; then
     species=Ddis #Dictyostelium discoideum; 14 marks (H3, input)
     chromsize=34134454
 elif [[ ${SLURM_ARRAY_TASK_ID} == 4 ]]; then
-    species=Ngru #Naegleria gruberii; 10 marks (H3, input)
+    species=Ngru #Naegleria gruberi; 11 marks (H3, input)
     chromsize=40964085
 elif [[ ${SLURM_ARRAY_TASK_ID} == 5 ]]; then
     species=Nvec #Nematostella vectensis; 14 marks (H3, input)
@@ -44,7 +44,7 @@ elif [[ ${SLURM_ARRAY_TASK_ID} == 7 ]]; then
     species=Spun #Spizellomyces punctatus; 14 marks (H3,input)
     chromsize=24131112
 elif [[ ${SLURM_ARRAY_TASK_ID} == 8 ]]; then
-    species=Tthe #Tetrahymena thermophila; 13 marks (H3, input)
+    species=Tthe #Tetrahymena thermophila; 11 marks (H3, input)
     chromsize=103014375
 elif [[ ${SLURM_ARRAY_TASK_ID} == 9 ]]; then
     species=Bnat #Bigelowiella natans; 14 marks (H3, input)
@@ -53,7 +53,7 @@ elif [[ ${SLURM_ARRAY_TASK_ID} == 10 ]]; then
     species=Gthe #Guillardia theta; 11 marks (H3, input)
     chromsize=87266873
 elif [[ ${SLURM_ARRAY_TASK_ID} == 11 ]]; then
-    species=Cfra #Creolimax fragrantissima; 10 marks (H3, input)
+    species=Cfra #Creolimax fragrantissima; 11 marks (H3, input)
     chromsize=44821703
 elif [[ ${SLURM_ARRAY_TASK_ID} == 12 ]]; then
     species=Scer #Saccharomyces cerevisiae; 11 marks (H3, input)

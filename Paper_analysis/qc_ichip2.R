@@ -57,7 +57,6 @@ plot_folder="/home/smontgomery/OneDrive/iChIPv2_SAM_plots/00Revision/"
 #                                         ((species == "Scer" | species == "Cfra") & (antibody=="H3K27me3" | antibody=="H3K9me1" | antibody=="H3K9me3")) |
 #                                         ((species=="Gthe") & (antibody=="H3K9me3" | antibody=="H3K79me2" | antibody=="H3K79me3")) |
 #                                         ((species=="Tthe") & (antibody=="H3K9me1" | antibody=="H3K79me2" | antibody=="H3K79me3")),"N","Y"))
-
 # bamlist <- c()
 # for (species in c("Nvec","Cfra","Scer","Spun","Acas","Ddis","Atha","Ppat","Gthe","Tthe","Bnat","Ngru")){
 #     bamlist <- c(paste0(species,"_all/bam_files/",species,"/",list.files(path=paste0("/home/smontgomery/no_backup/smontgomery/chip/",species,"_all/bam_files/",species,"/"),pattern="*.bam$",recursive=TRUE)),bamlist) 

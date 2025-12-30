@@ -19,20 +19,20 @@ set -e
 set -u
 set -o pipefail
 # === begin ENVIRONMENT SETUP ===
-#1. Species; chromsize calculated from scaffold/chromosome sizes in fasta.fai
+#1. Species; chromsize calculated from scaffold/chromosome sizes in fasta.fai; comment/uncomment lines to run script per species
 species=Acas #Acanthamoeba castellani; 14 marks (H3,input)
 chromsize=43956874
 # species=Atha #Arabidopsis thaliana; 11 marks (H3,input)
 # chromsize=131559676
 # species=Bnat #Bigelowiela natans; 14 marks (H3, input)
 # chromsize=94701163
-# species=Cfra #Creolimax fra; 10 marks (H3, input)
+# species=Cfra #Creolimax fra; 11 marks (H3, input)
 # chromsize=44821703
 # species=Ddis #Dictyostelium dis; 14 marks (H3, input)
 # chromsize=34134454
 # species=Gthe #Guiardia theta; 11 marks (H3, input)
 # chromsize=87145349
-# species=Ngru #Naegleria gruberii; 10 marks (H3, input)
+# species=Ngru #Naegleria gruberi; 11 marks (H3, input)
 # chromsize=40964085
 # species=Nvec #Nematostella vec; 14 marks (H3, input)
 # chromsize=269418438
@@ -42,7 +42,7 @@ chromsize=43956874
 # chromsize=12071326
 # species=Spun #Spizellomyces punctatus; 14 marks (H3,input)
 # chromsize=24131112
-# species=Tthe #Tetrahymena therm; 13 marks (H3, input)
+# species=Tthe #Tetrahymena therm; 11 marks (H3, input)
 # chromsize=103349470
 #2. list of sample names on separate lines (eg copied from excel)
 sample_list=/users/asebe/smontgomery/input_files/${species}_files.txt

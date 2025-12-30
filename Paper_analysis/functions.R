@@ -28,7 +28,8 @@ library("rtracklayer")
 library("GenomicRanges")
 library("plyranges")
 
-##From support_script/functions.R
+##From support_script/functions.R from Jamge et al 2023 Elife
+##Adapted by SAM to work more in GRanges; kept the originals
 		#####################################
 		## functions used in several figures
 		#####################################
