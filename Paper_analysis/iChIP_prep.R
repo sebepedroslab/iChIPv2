@@ -41,7 +41,7 @@ for (species in specieslist$species){
             left_join(rnaseq, by = "gene_id") %>%
             arrange(desc(RNAcounts))
     } else if (species=="Cfra"){
-        rnaseq = read_tsv(paste0("/home/smontgomery/cluster/asebe/proj/RNAseq_multisps_NG_revision/Gene_expression_counts/",species,"_RNA_counts.txt"), skip = 1, col_select = c(1,2), col_names = c("gene_id","RNAcounts"))
+        rnaseq = read_tsv(paste0("/home/smontgomery/cluster/asebe/proj/RNAseq_multisps_NG_revision/Gene_expression_counts/",species,"_RNA_counts.txt"), col_select = c(1,2), col_names = c("gene_id","RNAcounts"))
         RNAcountsfile <- read_tsv(paste0("/home/smontgomery/cluster/xgraubove/genomes/data/",species,"_long.annot.gtf"),col_select = c(1,3,4,5,7,9),col_names=c("chrom","2","feature","start","end","6","strand","8","id"))
         RNAcountsfile=RNAcountsfile%>%
             filter(feature=="transcript")%>%
